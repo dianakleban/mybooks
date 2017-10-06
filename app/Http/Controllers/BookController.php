@@ -13,7 +13,7 @@ class BookController extends Controller
 
     public function show($title)
     {
-        return 'Your book tilte is: ' . $title;
+        return 'Your book title is: ' . $title;
     }
 
 }
