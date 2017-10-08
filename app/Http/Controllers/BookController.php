@@ -8,7 +8,7 @@ class BookController extends Controller
 {
     public function index()
     {
-        return 'Here are all books';
+        return 'Show all books!';
     }
 
     public function show($title)
